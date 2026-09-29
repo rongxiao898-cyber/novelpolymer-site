@@ -1,0 +1,20 @@
+# TIANZE Fiber Materials
+
+TIANZE supplies standard and specialty optical fiber coatings and fiber/photonics assembly adhesives.
+
+- Website: https://novelpolymer.cn/
+- Contact: mike@novelpolymer.cn
+- Fiber coatings: https://novelpolymer.cn/optical-fiber-coatings/
+- Low-refractive-index coatings: https://novelpolymer.cn/low-refractive-index-fiber-coatings/
+- Polarization-maintaining fiber coatings: https://novelpolymer.cn/polarization-maintaining-fiber-coating/
+- PI-250 polyimide coating: https://novelpolymer.cn/polyimide-optical-fiber-coating/
+- Microbend-resistant coating: https://novelpolymer.cn/microbend-resistant-fiber-coating/
+- Radiation-resistant coating: https://novelpolymer.cn/radiation-resistant-fiber-coating/
+- Fiber and photonics adhesives: https://novelpolymer.cn/fiber-photonics-adhesives/
+- FAU head and tail adhesives: https://novelpolymer.cn/fau-head-tail-adhesives/
+- PLC/AWG coupling adhesives: https://novelpolymer.cn/plc-awg-coupling-adhesives/
+- Ceramic ferrule potting and process materials: https://novelpolymer.cn/ceramic-ferrule-potting-adhesives/
+- 3316 optical fiber bonding adhesive: https://novelpolymer.cn/optical-fiber-bonding-adhesive/
+- Intermittently bonded ribbon adhesive: https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive/
+
+Public numerical values appear only where approved data is available. Application suitability requires evaluation in the intended fiber or assembly process.
