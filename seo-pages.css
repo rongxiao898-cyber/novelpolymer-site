@@ -113,6 +113,16 @@ button:focus-visible { outline: 3px solid #65e4df; outline-offset: 4px; }
 .adhesive .copy-email-button { border-color: #c7a55f; color: #765000; }
 .copy-email-status { min-height: 20px; color: #42606a; font-size: 13px; line-height: 1.45; }
 
+.product-guides { margin-top: 54px; }
+.product-guides > h2 { max-width: 680px; margin: 14px 0 22px; font-size: clamp(28px, 4vw, 42px); line-height: 1.08; letter-spacing: -.035em; }
+.product-guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.product-guide-grid a { min-height: 220px; display: flex; flex-direction: column; padding: 24px; border: 1px solid #cddde2; border-top: 4px solid var(--cyan-deep); background: #fff; }
+.adhesive .product-guide-grid a { border-top-color: #d89515; }
+.product-guide-grid strong { font-size: 21px; line-height: 1.25; }
+.product-guide-grid span { margin-top: 14px; color: var(--slate); font-size: 14px; line-height: 1.55; }
+.product-guide-grid em { margin-top: auto; padding-top: 20px; color: var(--cyan-deep); font-size: 14px; font-style: normal; font-weight: 800; }
+.adhesive .product-guide-grid em { color: #986400; }
+
 .faq { margin-top: 64px; }
 .faq h2 { margin: 14px 0 24px; font-size: clamp(30px, 4vw, 46px); line-height: 1.08; letter-spacing: -.04em; }
 .faq details { border-top: 1px solid var(--line); }
@@ -189,6 +199,8 @@ footer p { color: rgba(255,255,255,.65); font-size: 13px; }
   .page-layout { gap: 34px; padding-block: 44px 62px; }
   .evaluation-panel, .product-card, .inquiry-panel { padding: 24px 20px; }
   .evaluation-panel ul, .grade-grid, .related-grid { grid-template-columns: 1fr; }
+  .product-guide-grid { grid-template-columns: 1fr; }
+  .product-guide-grid a { min-height: 0; }
   .product-card > h2 { font-size: 31px; }
   .product-card > p:not(.product-type):not(.codes) { font-size: 16px; }
   .spec-list div { grid-template-columns: 1fr; gap: 5px; }

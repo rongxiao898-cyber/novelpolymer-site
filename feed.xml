@@ -77,5 +77,26 @@
       <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
       <description>Plan IBR adhesive evaluation by fiber count, bond pattern, dispensing, cure process, ribbon rollability, handling and individual-fiber access requirements.</description>
     </item>
+    <item>
+      <title>How to Evaluate Coatings for Hollow-Core Optical Fiber</title>
+      <link>https://novelpolymer.cn/hollow-core-fiber-coating-evaluation-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/hollow-core-fiber-coating-evaluation-guide/</guid>
+      <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
+      <description>Plan coating evaluation for hollow-core and microstructured optical fiber by geometry, draw process, cure, handling environment and finished-fiber tests.</description>
+    </item>
+    <item>
+      <title>How to Qualify Coatings for Radiation-Exposed Optical Fiber</title>
+      <link>https://novelpolymer.cn/radiation-resistant-fiber-coating-qualification-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/radiation-resistant-fiber-coating-qualification-guide/</guid>
+      <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
+      <description>Build a radiation-exposure qualification plan for coated optical fiber by dose, dose rate, temperature, atmosphere and post-exposure retention tests.</description>
+    </item>
+    <item>
+      <title>How to Evaluate Adhesives for Optical Fiber Coil Bonding</title>
+      <link>https://novelpolymer.cn/optical-fiber-coil-bonding-adhesive-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/optical-fiber-coil-bonding-adhesive-guide/</guid>
+      <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
+      <description>Evaluate optical-fiber coil bonding adhesives by winding geometry, adhesive placement, UV access, cure stress and finished-coil optical stability.</description>
+    </item>
   </channel>
 </rss>
