@@ -124,7 +124,9 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #65e4df; outline-off
 .guide-library > h2 { max-width: 820px; margin: 14px 0 34px; font-size: clamp(32px, 4.5vw, 54px); line-height: 1.05; letter-spacing: -.045em; }
 .guide-card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .guide-card { min-height: 340px; display: flex; flex-direction: column; padding: 30px; border: 1px solid #cddde2; border-top: 4px solid var(--cyan-deep); background: #fff; }
+.guide-card.adhesive { border-top-color: #d89515; }
 .guide-card span { color: var(--cyan-deep); font-size: 12px; font-weight: 850; letter-spacing: .12em; }
+.guide-card.adhesive span, .guide-card.adhesive strong { color: #986400; }
 .guide-card h3 { margin: 34px 0 14px; font-size: 29px; line-height: 1.08; letter-spacing: -.035em; }
 .guide-card p { margin: 0; color: var(--slate); font-size: 15px; line-height: 1.62; }
 .guide-card strong { margin-top: auto; padding-top: 28px; color: #006e73; font-size: 14px; }

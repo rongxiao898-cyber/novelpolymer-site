@@ -20,5 +20,9 @@ TIANZE supplies standard and specialty optical fiber coatings and fiber/photonic
 - Optical fiber coating selection guide: https://novelpolymer.cn/optical-fiber-coating-selection-guide/
 - Refractive-index specification guide: https://novelpolymer.cn/optical-fiber-coating-refractive-index-guide/
 - FAU adhesive selection guide: https://novelpolymer.cn/fau-adhesive-selection-guide/
+- PM fiber coating evaluation guide: https://novelpolymer.cn/polarization-maintaining-fiber-coating-guide/
+- Polyimide thermal-data guide: https://novelpolymer.cn/polyimide-fiber-coating-temperature-guide/
+- Microbend test-planning guide: https://novelpolymer.cn/microbend-resistant-fiber-coating-test-guide/
+- PLC/AWG adhesive selection guide: https://novelpolymer.cn/plc-awg-optical-adhesive-selection-guide/
 
 Public numerical values appear only where approved data is available. Application suitability requires evaluation in the intended fiber or assembly process.
