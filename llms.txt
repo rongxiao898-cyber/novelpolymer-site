@@ -14,6 +14,7 @@ TIANZE supplies standard and specialty optical fiber coatings and fiber/photonic
 - FAU head and tail adhesives: https://novelpolymer.cn/fau-head-tail-adhesives/
 - PLC/AWG coupling adhesives: https://novelpolymer.cn/plc-awg-coupling-adhesives/
 - Ceramic ferrule potting and process materials: https://novelpolymer.cn/ceramic-ferrule-potting-adhesives/
+- TZ-PRT-501 removable dicing protection adhesive: https://novelpolymer.cn/fiber-array-dicing-protection-adhesive/
 - 3316 optical fiber bonding adhesive: https://novelpolymer.cn/optical-fiber-bonding-adhesive/
 - Intermittently bonded ribbon adhesive: https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive/
 - Technical guides: https://novelpolymer.cn/technical-guides/
@@ -27,5 +28,7 @@ TIANZE supplies standard and specialty optical fiber coatings and fiber/photonic
 - Double-clad fiber low-index coating guide: https://novelpolymer.cn/double-clad-fiber-low-refractive-index-coating-guide/
 - Ceramic ferrule potting adhesive guide: https://novelpolymer.cn/fiber-optic-connector-ferrule-potting-adhesive-guide/
 - Intermittently bonded ribbon adhesive guide: https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive-selection-guide/
+- Optical fiber coating UV-cure window guide: https://novelpolymer.cn/optical-fiber-coating-uv-cure-window-guide/
+- Fiber-array dicing protection adhesive guide: https://novelpolymer.cn/fiber-array-dicing-protection-adhesive-guide/
 
 Numerical data are listed on the relevant product pages. Application suitability requires evaluation in the intended fiber or assembly process.
