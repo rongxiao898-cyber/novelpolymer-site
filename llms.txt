@@ -16,5 +16,9 @@ TIANZE supplies standard and specialty optical fiber coatings and fiber/photonic
 - Ceramic ferrule potting and process materials: https://novelpolymer.cn/ceramic-ferrule-potting-adhesives/
 - 3316 optical fiber bonding adhesive: https://novelpolymer.cn/optical-fiber-bonding-adhesive/
 - Intermittently bonded ribbon adhesive: https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive/
+- Technical guides: https://novelpolymer.cn/technical-guides/
+- Optical fiber coating selection guide: https://novelpolymer.cn/optical-fiber-coating-selection-guide/
+- Refractive-index specification guide: https://novelpolymer.cn/optical-fiber-coating-refractive-index-guide/
+- FAU adhesive selection guide: https://novelpolymer.cn/fau-adhesive-selection-guide/
 
 Public numerical values appear only where approved data is available. Application suitability requires evaluation in the intended fiber or assembly process.
