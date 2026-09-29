@@ -24,5 +24,8 @@ TIANZE supplies standard and specialty optical fiber coatings and fiber/photonic
 - Polyimide thermal-data guide: https://novelpolymer.cn/polyimide-fiber-coating-temperature-guide/
 - Microbend test-planning guide: https://novelpolymer.cn/microbend-resistant-fiber-coating-test-guide/
 - PLC/AWG adhesive selection guide: https://novelpolymer.cn/plc-awg-optical-adhesive-selection-guide/
+- Double-clad fiber low-index coating guide: https://novelpolymer.cn/double-clad-fiber-low-refractive-index-coating-guide/
+- Ceramic ferrule potting adhesive guide: https://novelpolymer.cn/fiber-optic-connector-ferrule-potting-adhesive-guide/
+- Intermittently bonded ribbon adhesive guide: https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive-selection-guide/
 
-Public numerical values appear only where approved data is available. Application suitability requires evaluation in the intended fiber or assembly process.
+Numerical data are listed on the relevant product pages. Application suitability requires evaluation in the intended fiber or assembly process.

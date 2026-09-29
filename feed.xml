@@ -56,5 +56,26 @@
       <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
       <description>A practical framework for evaluating UV-curable adhesives for PLC, AWG and fiber-array coupling by bond geometry, cure access and alignment stability.</description>
     </item>
+    <item>
+      <title>How to Specify Low-Index Coatings for Double-Clad Fiber</title>
+      <link>https://novelpolymer.cn/double-clad-fiber-low-refractive-index-coating-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/double-clad-fiber-low-refractive-index-coating-guide/</guid>
+      <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
+      <description>Define refractive index, wavelength, material state, cure process and finished-fiber tests when evaluating low-index coatings for double-clad and active fiber.</description>
+    </item>
+    <item>
+      <title>How to Select a Ceramic Ferrule Potting Adhesive</title>
+      <link>https://novelpolymer.cn/fiber-optic-connector-ferrule-potting-adhesive-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/fiber-optic-connector-ferrule-potting-adhesive-guide/</guid>
+      <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
+      <description>Evaluate ceramic ferrule potting adhesives by fill geometry, viscosity, substrates, thermal cure, shrinkage and finished-connector reliability requirements.</description>
+    </item>
+    <item>
+      <title>How to Evaluate Adhesives for Intermittently Bonded Ribbon</title>
+      <link>https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive-selection-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive-selection-guide/</guid>
+      <pubDate>Mon, 28 Sep 2026 16:00:00 GMT</pubDate>
+      <description>Plan IBR adhesive evaluation by fiber count, bond pattern, dispensing, cure process, ribbon rollability, handling and individual-fiber access requirements.</description>
+    </item>
   </channel>
 </rss>

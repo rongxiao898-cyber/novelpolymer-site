@@ -10,7 +10,7 @@
   --paper: #fbfcfb;
   --mist: #edf3f3;
   --cyan: #16d5ce;
-  --cyan-deep: #008f93;
+  --cyan-deep: #006e73;
   --amber: #ffb62d;
   --line: rgba(8, 29, 45, .15);
 }
@@ -43,6 +43,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #65e4df; outline-off
 .brand small { margin-top: 5px; color: rgba(255,255,255,.62); font-size: 10px; letter-spacing: .16em; }
 .site-header nav { display: flex; align-items: center; gap: 28px; color: rgba(255,255,255,.78); font-size: 14px; font-weight: 650; }
 .site-header nav a:hover { color: #fff; }
+.mobile-nav, .mobile-enquiry { display: none; }
 
 .hero { position: relative; min-height: 650px; display: flex; align-items: center; overflow: hidden; color: #fff; background: var(--navy); }
 .hero > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -86,7 +87,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #65e4df; outline-off
 .product-card > h3 { margin: 25px 0 12px; font-size: 17px; }
 .product-card > ul { display: flex; flex-wrap: wrap; gap: 9px; margin: 0; padding: 0; list-style: none; }
 .product-card > ul li { padding: 9px 12px; color: #284653; background: var(--mist); font-size: 14px; line-height: 1.35; }
-.grade-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 28px; }
+.grade-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: start; margin-top: 28px; }
 .grade-panel { min-width: 0; padding: 22px; border: 1px solid var(--line); background: #f8fbfa; }
 .grade-panel > p { margin: 0; color: var(--slate); font-size: 14px; }
 .grade-panel > h3 { margin: 8px 0 18px; color: var(--ink); font-size: 26px; }
@@ -95,6 +96,9 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #65e4df; outline-off
 .spec-list dt { color: var(--slate); font-size: 14px; line-height: 1.35; }
 .spec-list dd { margin: 0; font-size: 14px; font-weight: 800; line-height: 1.35; text-align: right; }
 .text-link { display: inline-flex; margin-top: 24px; color: #006e73; font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }
+.grade-panel-compact { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 20px; }
+.grade-panel-compact > h3 { margin: 0; font-size: 22px; }
+.product-actions { display: flex; flex-wrap: wrap; gap: 12px 24px; }
 
 .inquiry-panel { position: sticky; top: 24px; padding: 30px; border-top: 4px solid var(--cyan); background: #eaf2f2; }
 .adhesive .inquiry-panel { border-top-color: var(--amber); background: #f5efe2; }
@@ -131,6 +135,8 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #65e4df; outline-off
 .guide-card p { margin: 0; color: var(--slate); font-size: 15px; line-height: 1.62; }
 .guide-card strong { margin-top: auto; padding-top: 28px; color: #006e73; font-size: 14px; }
 .guide-card:hover { border-color: var(--cyan-deep); transform: translateY(-2px); }
+.guide-group + .guide-group { margin-top: 52px; }
+.guide-group > h3 { margin: 0 0 20px; font-size: clamp(24px, 3vw, 34px); line-height: 1.1; letter-spacing: -.025em; }
 .guide-layout { padding-top: 66px; }
 .guide-section { display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 22px; padding: 32px 0; border-top: 1px solid var(--line); }
 .guide-section:first-child { border-top: 4px solid var(--cyan-deep); }
@@ -154,13 +160,22 @@ footer p { color: rgba(255,255,255,.65); font-size: 13px; }
 }
 
 @media (max-width: 640px) {
+  body { padding-bottom: 64px; }
   .shell { width: min(100% - 34px, 1160px); }
   .site-header { min-height: 68px; padding-inline: 17px; }
-  .site-header nav a:not(:last-child) { display: none; }
+  .site-header > .desktop-nav { display: none; }
+  .mobile-nav { position: relative; display: block; }
+  .mobile-nav summary { min-width: 72px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,.42); color: #fff; cursor: pointer; font-size: 14px; font-weight: 800; list-style: none; }
+  .mobile-nav summary::-webkit-details-marker { display: none; }
+  .mobile-nav nav { position: absolute; top: 50px; right: 0; min-width: 230px; display: grid; gap: 0; padding: 8px; color: var(--ink); background: #fff; box-shadow: 0 18px 50px rgba(0,0,0,.24); }
+  .mobile-nav nav a { min-height: 46px; display: flex; align-items: center; padding: 0 14px; border-bottom: 1px solid var(--line); }
+  .mobile-nav nav a:last-child { border-bottom: 0; }
+  .mobile-enquiry { position: fixed; z-index: 20; right: 10px; bottom: 10px; left: 10px; min-height: 48px; display: flex; align-items: center; justify-content: center; color: #032b2d; background: var(--cyan); box-shadow: 0 10px 28px rgba(3,18,31,.28); font-size: 14px; font-weight: 850; }
+  .adhesive .mobile-enquiry { color: #2b1b00; background: #ffc65b; }
   .brand img { width: 42px; height: 42px; }
   .brand strong { font-size: 12px; }
   .brand small { font-size: 8px; }
-  .hero { min-height: 700px; }
+  .hero { min-height: 560px; }
   .hero-content { padding-block: 126px 72px; }
   .hero h1 { font-size: clamp(42px, 13vw, 60px); }
   .lead { font-size: 17px; }
