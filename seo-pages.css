@@ -201,7 +201,9 @@ footer p { color: rgba(255,255,255,.65); font-size: 13px; }
   .mobile-nav nav { position: absolute; top: 50px; right: 0; min-width: 230px; display: grid; gap: 0; padding: 8px; color: var(--ink); background: #fff; box-shadow: 0 18px 50px rgba(0,0,0,.24); }
   .mobile-nav nav a { min-height: 46px; display: flex; align-items: center; padding: 0 14px; border-bottom: 1px solid var(--line); }
   .mobile-nav nav a:last-child { border-bottom: 0; }
-  .mobile-enquiry { position: fixed; z-index: 20; right: 10px; bottom: 10px; left: 10px; min-height: 48px; display: flex; align-items: center; justify-content: center; color: #032b2d; background: var(--cyan); box-shadow: 0 10px 28px rgba(3,18,31,.28); font-size: 14px; font-weight: 850; }
+  body { padding-bottom: 68px; }
+  .mobile-enquiry { position: fixed; z-index: 20; right: 10px; bottom: 10px; left: 10px; min-height: 48px; display: flex; align-items: center; justify-content: center; color: #032b2d; background: var(--cyan); box-shadow: 0 10px 28px rgba(3,18,31,.28); font-size: 14px; font-weight: 850; opacity: 0; pointer-events: none; transform: translateY(120%); transition: opacity .2s ease, transform .2s ease; }
+  .mobile-enquiry.is-visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
   .adhesive .mobile-enquiry { color: #2b1b00; background: #ffc65b; }
   .brand img { width: 42px; height: 42px; }
   .brand strong { font-size: 12px; }

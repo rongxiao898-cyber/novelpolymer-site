@@ -133,5 +133,26 @@
       <pubDate>Mon, 05 Oct 2026 16:00:00 GMT</pubDate>
       <description>Plan a photonics-assembly study that connects adhesive placement, cure sequence and measured optical alignment before, during and after cure.</description>
     </item>
+    <item>
+      <title>How to Specify Low-Index Coatings for Medical and Laser-Delivery Fiber</title>
+      <link>https://novelpolymer.cn/medical-laser-delivery-fiber-low-index-coating-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/medical-laser-delivery-fiber-low-index-coating-guide/</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Define low-index coating requirements for medical and laser-delivery optical fiber by wavelength, optical architecture, process, handling and finished-fiber qualification.</description>
+    </item>
+    <item>
+      <title>How to Qualify Optical Fiber Coatings for 150–200°C Environments</title>
+      <link>https://novelpolymer.cn/medium-temperature-optical-fiber-coating-qualification-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/medium-temperature-optical-fiber-coating-qualification-guide/</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Plan qualification of a dual-layer optical fiber coating for a 150–200°C target environment by duration, atmosphere, cycling, process and post-exposure retention tests.</description>
+    </item>
+    <item>
+      <title>How to Qualify Photonics Adhesive Assemblies for Thermal Cycling and Damp Heat</title>
+      <link>https://novelpolymer.cn/photonics-adhesive-thermal-cycling-damp-heat-qualification-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/photonics-adhesive-thermal-cycling-damp-heat-qualification-guide/</guid>
+      <pubDate>Mon, 05 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Plan thermal-cycling and damp-heat qualification for bonded FAU, PLC/AWG, connector and optical-module assemblies using controlled baselines and post-exposure checks.</description>
+    </item>
   </channel>
 </rss>

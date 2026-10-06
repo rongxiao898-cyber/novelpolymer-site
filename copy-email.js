@@ -28,3 +28,18 @@ for (const button of document.querySelectorAll("[data-copy-email]")) {
     }
   });
 }
+
+const mobileEnquiry = document.querySelector(".mobile-enquiry");
+const hero = document.querySelector(".hero");
+if (mobileEnquiry && hero) {
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(([entry]) => {
+      mobileEnquiry.classList.toggle("is-visible", !entry.isIntersecting);
+    }, { threshold: 0.08 });
+    observer.observe(hero);
+  } else {
+    const updateMobileEnquiry = () => mobileEnquiry.classList.toggle("is-visible", window.scrollY > 320);
+    window.addEventListener("scroll", updateMobileEnquiry, { passive: true });
+    updateMobileEnquiry();
+  }
+}

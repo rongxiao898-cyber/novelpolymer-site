@@ -33,5 +33,8 @@ TIANZE supplies standard and specialty optical fiber coatings and fiber/photonic
 - Primary and secondary coating compatibility guide: https://novelpolymer.cn/primary-secondary-optical-fiber-coating-compatibility-guide/
 - Specialty coating qualification matrix guide: https://novelpolymer.cn/specialty-optical-fiber-coating-qualification-matrix-guide/
 - Photonics adhesive cure-movement guide: https://novelpolymer.cn/photonics-adhesive-cure-shrinkage-alignment-guide/
+- Medical and laser-delivery low-index coating guide: https://novelpolymer.cn/medical-laser-delivery-fiber-low-index-coating-guide/
+- Medium-temperature coating qualification guide: https://novelpolymer.cn/medium-temperature-optical-fiber-coating-qualification-guide/
+- Photonics adhesive environmental qualification guide: https://novelpolymer.cn/photonics-adhesive-thermal-cycling-damp-heat-qualification-guide/
 
 Numerical data are listed on the relevant product pages. Application suitability requires evaluation in the intended fiber or assembly process.
