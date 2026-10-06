@@ -96,7 +96,7 @@
       <div class="analytics-consent__inner">
         <div class="analytics-consent__copy">
           <strong id="analytics-consent-title">Analytics cookies <span lang="zh-CN">/ 分析型 Cookie</span></strong>
-          <p>With your permission, we use Google Analytics to understand page visits and enquiry-entry clicks. We do not send form fields or email content. <span lang="zh-CN">经您同意后，我们使用 Google Analytics 了解页面访问及咨询入口点击情况，不会发送表单内容或邮件正文。</span></p>
+          <p>With your permission, we use Google Analytics to understand page visits, resource downloads and enquiry-entry clicks. We do not send form fields, copied checklist text or email content. <span lang="zh-CN">经您同意后，我们使用 Google Analytics 了解页面访问、资料下载及咨询入口点击情况，不会发送表单内容、复制的清单文字或邮件正文。</span></p>
           <a href="/privacy/">Privacy &amp; cookie notice <span lang="zh-CN">/ 隐私与 Cookie 说明</span></a>
         </div>
         <div class="analytics-consent__actions">
@@ -122,9 +122,21 @@
     let sentScrollEvent = false;
     document.addEventListener("click", (event) => {
       if (readChoice() !== "granted" || typeof window.gtag !== "function") return;
+      const checklistButton = event.target.closest("[data-copy-checklist]");
+      if (checklistButton) {
+        window.gtag("event", "checklist_copy", { page_path: location.pathname });
+        return;
+      }
       const link = event.target.closest("a[href]");
       if (!link) return;
       const href = link.getAttribute("href") || "";
+      if (link.hasAttribute("download") && /\.pdf(?:$|[?#])/i.test(href)) {
+        window.gtag("event", "resource_download", {
+          resource_name: href.split("/").pop().split(/[?#]/)[0],
+          page_path: location.pathname,
+        });
+        return;
+      }
       if (href.startsWith("mailto:")) {
         window.gtag("event", "enquiry_entry_click", { page_path: location.pathname });
         return;
