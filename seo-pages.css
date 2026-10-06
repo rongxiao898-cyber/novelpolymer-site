@@ -113,6 +113,25 @@ button:focus-visible { outline: 3px solid #65e4df; outline-offset: 4px; }
 .adhesive .copy-email-button { border-color: #c7a55f; color: #765000; }
 .copy-email-status { min-height: 20px; color: #42606a; font-size: 13px; line-height: 1.45; }
 
+.brief-download { margin-top: 18px; padding: 28px; border: 1px solid #c9dade; border-left: 4px solid var(--cyan-deep); background: #f3f9f8; }
+.adhesive .brief-download, .brief-download-card:nth-child(2) { border-left-color: #d89515; background: #fff8e9; }
+.brief-download h2 { margin: 10px 0 10px; font-size: clamp(24px, 3vw, 32px); line-height: 1.1; letter-spacing: -.025em; }
+.brief-download > p:not(.section-label) { max-width: 720px; margin: 0; color: var(--slate); font-size: 15px; line-height: 1.6; }
+.brief-download .resource-button { width: auto; margin-top: 19px; color: #fff; background: var(--cyan-deep); }
+.adhesive .brief-download .resource-button, .brief-download-card:nth-child(2) .resource-button { color: #2b1b00; background: #ffc65b; }
+.brief-download small { display: block; margin-top: 10px; color: var(--slate); font-size: 12px; }
+.brief-resource-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 30px 0 58px; }
+.brief-download-card { height: 100%; margin-top: 0; padding: 30px; }
+.guide-jump { display: flex; flex-wrap: wrap; gap: 10px; }
+.guide-jump a { min-height: 44px; display: inline-flex; align-items: center; padding: 0 16px; border: 1px solid #b8cdd2; color: #095d65; background: #fff; font-size: 14px; font-weight: 800; }
+.guide-jump a:hover { border-color: var(--cyan-deep); }
+.checklist-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 25px; }
+.checklist-actions .resource-button { width: auto; color: #032b2d; background: var(--cyan); }
+.adhesive .checklist-actions .resource-button { color: #2b1b00; background: #ffc65b; }
+.checklist-copy-button { min-height: 52px; padding: 0 18px; border: 1px solid rgba(255,255,255,.42); color: #fff; background: transparent; font: inherit; font-size: 14px; font-weight: 800; cursor: pointer; }
+.checklist-copy-button:hover { border-color: #fff; }
+.checklist-copy-status { flex-basis: 100%; min-height: 20px; color: rgba(255,255,255,.76); font-size: 13px; }
+
 .product-guides { margin-top: 54px; }
 .product-guides > h2 { max-width: 680px; margin: 14px 0 22px; font-size: clamp(28px, 4vw, 42px); line-height: 1.08; letter-spacing: -.035em; }
 .product-guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
@@ -188,6 +207,7 @@ footer p { color: rgba(255,255,255,.65); font-size: 13px; }
   .site-header nav { gap: 16px; font-size: 13px; }
   .guide-card-grid { grid-template-columns: 1fr; }
   .guide-card { min-height: 260px; }
+  .brief-resource-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 640px) {
@@ -216,6 +236,8 @@ footer p { color: rgba(255,255,255,.65); font-size: 13px; }
   .button { width: 100%; }
   .page-layout { gap: 34px; padding-block: 44px 62px; }
   .evaluation-panel, .product-card, .inquiry-panel { padding: 24px 20px; }
+  .brief-download { padding: 24px 20px; }
+  .brief-download .resource-button, .checklist-actions .resource-button, .checklist-copy-button { width: 100%; }
   .evaluation-panel ul, .grade-grid, .related-grid { grid-template-columns: 1fr; }
   .product-guide-grid { grid-template-columns: 1fr; }
   .product-guide-grid a { min-height: 0; }

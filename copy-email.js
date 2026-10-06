@@ -1,13 +1,13 @@
 const email = "mike@novelpolymer.cn";
 
-async function copyEmail() {
+async function copyText(text) {
   if (navigator.clipboard?.writeText) {
-    await navigator.clipboard.writeText(email);
+    await navigator.clipboard.writeText(text);
     return;
   }
 
   const input = document.createElement("textarea");
-  input.value = email;
+  input.value = text;
   input.setAttribute("readonly", "");
   input.style.position = "fixed";
   input.style.opacity = "0";
@@ -25,6 +25,22 @@ for (const button of document.querySelectorAll("[data-copy-email]")) {
       if (status) status.textContent = "Email address copied.";
     } catch {
       if (status) status.textContent = `Copy failed. Use ${email}.`;
+    }
+  });
+}
+
+function copyEmail() {
+  return copyText(email);
+}
+
+for (const button of document.querySelectorAll("[data-copy-checklist]")) {
+  button.addEventListener("click", async () => {
+    const status = button.parentElement?.querySelector("[data-checklist-status]");
+    try {
+      await copyText(button.dataset.checklist || "");
+      if (status) status.textContent = "Checklist copied.";
+    } catch {
+      if (status) status.textContent = "Copy failed. Select the checklist above.";
     }
   });
 }
