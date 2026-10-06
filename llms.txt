@@ -30,5 +30,8 @@ TIANZE supplies standard and specialty optical fiber coatings and fiber/photonic
 - Intermittently bonded ribbon adhesive guide: https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive-selection-guide/
 - Optical fiber coating UV-cure window guide: https://novelpolymer.cn/optical-fiber-coating-uv-cure-window-guide/
 - Fiber-array dicing protection adhesive guide: https://novelpolymer.cn/fiber-array-dicing-protection-adhesive-guide/
+- Primary and secondary coating compatibility guide: https://novelpolymer.cn/primary-secondary-optical-fiber-coating-compatibility-guide/
+- Specialty coating qualification matrix guide: https://novelpolymer.cn/specialty-optical-fiber-coating-qualification-matrix-guide/
+- Photonics adhesive cure-movement guide: https://novelpolymer.cn/photonics-adhesive-cure-shrinkage-alignment-guide/
 
 Numerical data are listed on the relevant product pages. Application suitability requires evaluation in the intended fiber or assembly process.
