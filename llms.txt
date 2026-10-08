@@ -2,44 +2,44 @@
 
 TIANZE supplies standard and specialty optical fiber coatings and fiber/photonics assembly adhesives.
 
-- Website: https://novelpolymer.cn/
-- Contact: mike@novelpolymer.cn
-- Fiber coatings: https://novelpolymer.cn/optical-fiber-coatings/
-- Low-refractive-index coatings: https://novelpolymer.cn/low-refractive-index-fiber-coatings/
-- Active and double-clad low-index coating: https://novelpolymer.cn/active-fiber-low-refractive-index-coating/
-- UV and laser-delivery fiber coating: https://novelpolymer.cn/uv-laser-delivery-fiber-coating/
-- Single-mode fiber coating: https://novelpolymer.cn/single-mode-optical-fiber-coating/
-- Multimode fiber coating: https://novelpolymer.cn/multimode-optical-fiber-coating/
-- Medium-temperature fiber coating: https://novelpolymer.cn/medium-temperature-optical-fiber-coating/
-- Polarization-maintaining fiber coatings: https://novelpolymer.cn/polarization-maintaining-fiber-coating/
-- PI-250 polyimide coating: https://novelpolymer.cn/polyimide-optical-fiber-coating/
-- Microbend-resistant coating: https://novelpolymer.cn/microbend-resistant-fiber-coating/
-- Radiation-resistant coating: https://novelpolymer.cn/radiation-resistant-fiber-coating/
-- Fiber and photonics adhesives: https://novelpolymer.cn/fiber-photonics-adhesives/
-- FAU head and tail adhesives: https://novelpolymer.cn/fau-head-tail-adhesives/
-- PLC/AWG coupling adhesives: https://novelpolymer.cn/plc-awg-coupling-adhesives/
-- Ceramic ferrule potting and process materials: https://novelpolymer.cn/ceramic-ferrule-potting-adhesives/
-- TZ-PRT-501 removable dicing protection adhesive: https://novelpolymer.cn/fiber-array-dicing-protection-adhesive/
-- 3316 optical fiber bonding adhesive: https://novelpolymer.cn/optical-fiber-bonding-adhesive/
-- Intermittently bonded ribbon adhesive: https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive/
-- Technical guides: https://novelpolymer.cn/technical-guides/
-- Optical fiber coating selection guide: https://novelpolymer.cn/optical-fiber-coating-selection-guide/
-- Refractive-index specification guide: https://novelpolymer.cn/optical-fiber-coating-refractive-index-guide/
-- FAU adhesive selection guide: https://novelpolymer.cn/fau-adhesive-selection-guide/
-- PM fiber coating evaluation guide: https://novelpolymer.cn/polarization-maintaining-fiber-coating-guide/
-- Polyimide thermal-data guide: https://novelpolymer.cn/polyimide-fiber-coating-temperature-guide/
-- Microbend test-planning guide: https://novelpolymer.cn/microbend-resistant-fiber-coating-test-guide/
-- PLC/AWG adhesive selection guide: https://novelpolymer.cn/plc-awg-optical-adhesive-selection-guide/
-- Double-clad fiber low-index coating guide: https://novelpolymer.cn/double-clad-fiber-low-refractive-index-coating-guide/
-- Ceramic ferrule potting adhesive guide: https://novelpolymer.cn/fiber-optic-connector-ferrule-potting-adhesive-guide/
-- Intermittently bonded ribbon adhesive guide: https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive-selection-guide/
-- Optical fiber coating UV-cure window guide: https://novelpolymer.cn/optical-fiber-coating-uv-cure-window-guide/
-- Fiber-array dicing protection adhesive guide: https://novelpolymer.cn/fiber-array-dicing-protection-adhesive-guide/
-- Primary and secondary coating compatibility guide: https://novelpolymer.cn/primary-secondary-optical-fiber-coating-compatibility-guide/
-- Specialty coating qualification matrix guide: https://novelpolymer.cn/specialty-optical-fiber-coating-qualification-matrix-guide/
-- Photonics adhesive cure-movement guide: https://novelpolymer.cn/photonics-adhesive-cure-shrinkage-alignment-guide/
-- Medical and laser-delivery low-index coating guide: https://novelpolymer.cn/medical-laser-delivery-fiber-low-index-coating-guide/
-- Medium-temperature coating qualification guide: https://novelpolymer.cn/medium-temperature-optical-fiber-coating-qualification-guide/
-- Photonics adhesive environmental qualification guide: https://novelpolymer.cn/photonics-adhesive-thermal-cycling-damp-heat-qualification-guide/
+- [Website](https://novelpolymer.cn/)
+- Contact: [mike@novelpolymer.cn](mailto:mike@novelpolymer.cn)
+- [Fiber coatings](https://novelpolymer.cn/optical-fiber-coatings/)
+- [Low-refractive-index coatings](https://novelpolymer.cn/low-refractive-index-fiber-coatings/)
+- [Active and double-clad low-index coating](https://novelpolymer.cn/active-fiber-low-refractive-index-coating/)
+- [UV and laser-delivery fiber coating](https://novelpolymer.cn/uv-laser-delivery-fiber-coating/)
+- [Single-mode fiber coating](https://novelpolymer.cn/single-mode-optical-fiber-coating/)
+- [Multimode fiber coating](https://novelpolymer.cn/multimode-optical-fiber-coating/)
+- [Medium-temperature fiber coating](https://novelpolymer.cn/medium-temperature-optical-fiber-coating/)
+- [Polarization-maintaining fiber coatings](https://novelpolymer.cn/polarization-maintaining-fiber-coating/)
+- [PI-250 polyimide coating](https://novelpolymer.cn/polyimide-optical-fiber-coating/)
+- [Microbend-resistant coating](https://novelpolymer.cn/microbend-resistant-fiber-coating/)
+- [Radiation-resistant coating](https://novelpolymer.cn/radiation-resistant-fiber-coating/)
+- [Fiber and photonics adhesives](https://novelpolymer.cn/fiber-photonics-adhesives/)
+- [FAU head and tail adhesives](https://novelpolymer.cn/fau-head-tail-adhesives/)
+- [PLC/AWG coupling adhesives](https://novelpolymer.cn/plc-awg-coupling-adhesives/)
+- [Ceramic ferrule potting and process materials](https://novelpolymer.cn/ceramic-ferrule-potting-adhesives/)
+- [TZ-PRT-501 removable dicing protection adhesive](https://novelpolymer.cn/fiber-array-dicing-protection-adhesive/)
+- [3316 optical fiber bonding adhesive](https://novelpolymer.cn/optical-fiber-bonding-adhesive/)
+- [Intermittently bonded ribbon adhesive](https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive/)
+- [Technical guides](https://novelpolymer.cn/technical-guides/)
+- [Optical fiber coating selection guide](https://novelpolymer.cn/optical-fiber-coating-selection-guide/)
+- [Refractive-index specification guide](https://novelpolymer.cn/optical-fiber-coating-refractive-index-guide/)
+- [FAU adhesive selection guide](https://novelpolymer.cn/fau-adhesive-selection-guide/)
+- [PM fiber coating evaluation guide](https://novelpolymer.cn/polarization-maintaining-fiber-coating-guide/)
+- [Polyimide thermal-data guide](https://novelpolymer.cn/polyimide-fiber-coating-temperature-guide/)
+- [Microbend test-planning guide](https://novelpolymer.cn/microbend-resistant-fiber-coating-test-guide/)
+- [PLC/AWG adhesive selection guide](https://novelpolymer.cn/plc-awg-optical-adhesive-selection-guide/)
+- [Double-clad fiber low-index coating guide](https://novelpolymer.cn/double-clad-fiber-low-refractive-index-coating-guide/)
+- [Ceramic ferrule potting adhesive guide](https://novelpolymer.cn/fiber-optic-connector-ferrule-potting-adhesive-guide/)
+- [Intermittently bonded ribbon adhesive guide](https://novelpolymer.cn/intermittently-bonded-ribbon-adhesive-selection-guide/)
+- [Optical fiber coating UV-cure window guide](https://novelpolymer.cn/optical-fiber-coating-uv-cure-window-guide/)
+- [Fiber-array dicing protection adhesive guide](https://novelpolymer.cn/fiber-array-dicing-protection-adhesive-guide/)
+- [Primary and secondary coating compatibility guide](https://novelpolymer.cn/primary-secondary-optical-fiber-coating-compatibility-guide/)
+- [Specialty coating qualification matrix guide](https://novelpolymer.cn/specialty-optical-fiber-coating-qualification-matrix-guide/)
+- [Photonics adhesive cure-movement guide](https://novelpolymer.cn/photonics-adhesive-cure-shrinkage-alignment-guide/)
+- [Medical and laser-delivery low-index coating guide](https://novelpolymer.cn/medical-laser-delivery-fiber-low-index-coating-guide/)
+- [Medium-temperature coating qualification guide](https://novelpolymer.cn/medium-temperature-optical-fiber-coating-qualification-guide/)
+- [Photonics adhesive environmental qualification guide](https://novelpolymer.cn/photonics-adhesive-thermal-cycling-damp-heat-qualification-guide/)
 
 Numerical data are listed on the relevant product pages. Application suitability requires evaluation in the intended fiber or assembly process.
