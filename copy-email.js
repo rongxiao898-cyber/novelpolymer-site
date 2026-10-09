@@ -59,3 +59,19 @@ if (mobileEnquiry && hero) {
     updateMobileEnquiry();
   }
 }
+
+for (const menu of document.querySelectorAll(".mobile-nav")) {
+  const summary = menu.querySelector("summary");
+  if (!summary) continue;
+
+  menu.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !menu.open) return;
+    event.preventDefault();
+    menu.open = false;
+    summary.focus();
+  });
+
+  document.addEventListener("pointerdown", (event) => {
+    if (menu.open && !menu.contains(event.target)) menu.open = false;
+  });
+}
