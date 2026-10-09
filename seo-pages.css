@@ -74,6 +74,14 @@ button:focus-visible { outline: 3px solid #65e4df; outline-offset: 4px; }
 .evaluation-panel li { position: relative; padding: 12px 0 12px 21px; border-top: 1px solid rgba(255,255,255,.18); color: rgba(255,255,255,.8); font-size: 15px; line-height: 1.5; }
 .evaluation-panel li::before { content: ""; position: absolute; left: 0; top: 20px; width: 7px; height: 7px; border-radius: 50%; background: var(--cyan); }
 .adhesive .evaluation-panel li::before { background: var(--amber); }
+.supplier-panel { margin-top: 18px; padding: 32px 34px; border: 1px solid var(--line); background: linear-gradient(135deg, #f6fbfb 0%, #fff 72%); }
+.adhesive .supplier-panel { background: linear-gradient(135deg, #fff8e9 0%, #fff 72%); }
+.supplier-panel h2 { margin: 12px 0 12px; font-size: clamp(27px, 3.5vw, 38px); line-height: 1.1; letter-spacing: -.03em; }
+.supplier-panel > p:not(.section-label) { max-width: 760px; margin: 0; color: var(--slate); font-size: 16px; line-height: 1.65; }
+.supplier-panel ul { display: grid; gap: 10px; margin: 22px 0 18px; padding: 0; list-style: none; }
+.supplier-panel li { position: relative; padding: 10px 0 10px 22px; border-top: 1px solid var(--line); color: var(--ink); line-height: 1.5; }
+.supplier-panel li::before { content: ""; position: absolute; left: 0; top: 18px; width: 8px; height: 8px; border-radius: 50%; background: var(--cyan-deep); }
+.adhesive .supplier-panel li::before { background: #d89515; }
 .note { margin: 22px 0 0; padding: 16px 18px; border-left: 3px solid var(--amber); color: #ffe5ae; background: rgba(255,182,45,.1); font-size: 15px; line-height: 1.55; }
 
 .products { display: grid; gap: 22px; margin-top: 26px; }
@@ -235,7 +243,7 @@ footer p { color: rgba(255,255,255,.65); font-size: 13px; }
   .hero-actions { display: grid; }
   .button { width: 100%; }
   .page-layout { gap: 34px; padding-block: 44px 62px; }
-  .evaluation-panel, .product-card, .inquiry-panel { padding: 24px 20px; }
+  .evaluation-panel, .supplier-panel, .product-card, .inquiry-panel { padding: 24px 20px; }
   .brief-download { padding: 24px 20px; }
   .brief-download .resource-button, .checklist-actions .resource-button, .checklist-copy-button { width: 100%; }
   .evaluation-panel ul, .grade-grid, .related-grid { grid-template-columns: 1fr; }
