@@ -154,5 +154,19 @@
       <pubDate>Thu, 08 Oct 2026 16:00:00 GMT</pubDate>
       <description>Plan thermal-cycling and damp-heat tests for bonded FAU, PLC/AWG, connector and optical-module assemblies using controlled baselines.</description>
     </item>
+    <item>
+      <title>Primary and Secondary Optical Fiber Coating Modulus</title>
+      <link>https://novelpolymer.cn/optical-fiber-coating-modulus-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/optical-fiber-coating-modulus-guide/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Understand how primary and secondary optical fiber coating modulus should be specified, compared and validated across temperature, cure state and finished-fiber testing.</description>
+    </item>
+    <item>
+      <title>How to Select Adhesives for Optical Module Assembly</title>
+      <link>https://novelpolymer.cn/optical-module-assembly-adhesive-selection-guide/</link>
+      <guid isPermaLink="true">https://novelpolymer.cn/optical-module-assembly-adhesive-selection-guide/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 GMT</pubDate>
+      <description>Select adhesives for optical module assembly by bond function, substrates, optical path, dispense geometry, cure access, alignment stability and reliability testing.</description>
+    </item>
   </channel>
 </rss>

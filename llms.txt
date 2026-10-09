@@ -42,5 +42,7 @@ TIANZE supplies standard and specialty optical fiber coatings and fiber/photonic
 - [Medical and laser-delivery low-index coating guide](https://novelpolymer.cn/medical-laser-delivery-fiber-low-index-coating-guide/)
 - [Medium-temperature coating qualification guide](https://novelpolymer.cn/medium-temperature-optical-fiber-coating-qualification-guide/)
 - [Photonics adhesive environmental qualification guide](https://novelpolymer.cn/photonics-adhesive-thermal-cycling-damp-heat-qualification-guide/)
+- [Primary and secondary optical fiber coating modulus guide](https://novelpolymer.cn/optical-fiber-coating-modulus-guide/)
+- [Optical module assembly adhesive selection guide](https://novelpolymer.cn/optical-module-assembly-adhesive-selection-guide/)
 
 Numerical data are listed on the relevant product pages. Application suitability requires evaluation in the intended fiber or assembly process.
