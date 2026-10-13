@@ -122,6 +122,13 @@ button:focus-visible { outline: 3px solid #65e4df; outline-offset: 4px; }
 .copy-email-button { min-height: 44px; padding: 0 14px; border: 1px solid #8aa9af; color: #0a5362; background: #fff; font: inherit; font-size: 14px; font-weight: 800; cursor: pointer; }
 .adhesive .copy-email-button { border-color: #c7a55f; color: #765000; }
 .copy-email-status { min-height: 20px; color: #42606a; font-size: 13px; line-height: 1.45; }
+.preferred-contact { display: grid; gap: 5px; margin-top: 12px; padding: 15px; border: 1px solid #bfd3d7; background: rgba(255,255,255,.68); }
+.adhesive .preferred-contact { border-color: #ddc994; }
+.preferred-contact strong { color: #0a5362; font-size: 14px; line-height: 1.35; }
+.adhesive .preferred-contact strong { color: #765000; }
+.preferred-contact span { color: var(--slate); font-size: 12px; line-height: 1.5; }
+.preferred-contact a { width: fit-content; margin-top: 3px; border-bottom: 1px solid currentColor; color: #0a6670; font-size: 12px; font-weight: 800; line-height: 1.5; }
+.adhesive .preferred-contact a { color: #8c5c00; }
 
 .brief-download { margin-top: 18px; padding: 28px; border: 1px solid #c9dade; border-left: 4px solid var(--cyan-deep); background: #f3f9f8; }
 .adhesive .brief-download, .brief-download-card:nth-child(2) { border-left-color: #d89515; background: #fff8e9; }
