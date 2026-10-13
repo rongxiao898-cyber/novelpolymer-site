@@ -204,7 +204,21 @@ button:focus-visible { outline: 3px solid #65e4df; outline-offset: 4px; }
 .guide-card:hover { border-color: var(--cyan-deep); transform: translateY(-2px); }
 .guide-group + .guide-group { margin-top: 52px; }
 .guide-group > h3 { margin: 0 0 20px; font-size: clamp(24px, 3vw, 34px); line-height: 1.1; letter-spacing: -.025em; }
-.guide-layout { padding-top: 66px; }
+.guide-meta-strip { border-bottom: 1px solid var(--line); background: #eef5f4; }
+.adhesive .guide-meta-strip { background: #f8f2e6; }
+.guide-meta-inner { min-height: 78px; display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; align-items: center; gap: 20px 28px; }
+.guide-meta-item { display: grid; gap: 4px; margin: 0; }
+.guide-meta-label { color: var(--slate); font-size: 12px; font-weight: 850; letter-spacing: .08em; line-height: 1.25; text-transform: uppercase; }
+.guide-meta-item strong, .guide-meta-item time { color: var(--ink); font-size: 14px; font-weight: 800; line-height: 1.4; }
+.guide-meta-item strong a { border-bottom: 1px solid currentColor; color: var(--cyan-deep); }
+.adhesive .guide-meta-item strong a { color: #8c5c00; }
+.guide-share { display: grid; justify-items: end; gap: 4px; }
+.guide-share-button { min-height: 44px; padding: 0 16px; border: 1px solid #9bb9bd; color: #075d65; background: #fff; font: inherit; font-size: 13px; font-weight: 850; cursor: pointer; }
+.adhesive .guide-share-button { border-color: #d4bd86; color: #765000; }
+.guide-share-button:hover { border-color: var(--cyan-deep); }
+.guide-share-button:focus-visible { outline: 3px solid #65e4df; outline-offset: 3px; }
+.guide-share-status { min-height: 17px; color: var(--slate); font-size: 11px; line-height: 1.4; }
+.guide-layout { padding-top: 50px; }
 .guide-section { display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 22px; padding: 32px 0; border-top: 1px solid var(--line); }
 .guide-section:first-child { border-top: 4px solid var(--cyan-deep); }
 .adhesive .guide-section:first-child { border-top-color: #d89515; }
@@ -327,6 +341,10 @@ footer p { color: rgba(255,255,255,.65); font-size: 13px; }
   .guide-library { padding-block: 54px 64px; }
   .guide-card { min-height: 0; padding: 24px 20px; }
   .guide-card h3 { margin-top: 24px; font-size: 28px; }
+  .guide-meta-inner { min-height: 0; grid-template-columns: 1fr 1fr; gap: 14px 16px; padding-block: 18px; }
+  .guide-meta-item:first-child { grid-column: 1 / -1; }
+  .guide-share { grid-column: 1 / -1; justify-items: stretch; }
+  .guide-share-button { width: 100%; }
   .guide-section { grid-template-columns: 38px minmax(0, 1fr); gap: 12px; padding: 27px 0; }
   .guide-section h2 { font-size: 28px; }
   .guide-section p { font-size: 16px; }

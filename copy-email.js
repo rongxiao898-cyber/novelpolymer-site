@@ -12,9 +12,14 @@ async function copyText(text) {
   input.style.position = "fixed";
   input.style.opacity = "0";
   document.body.appendChild(input);
-  input.select();
-  document.execCommand("copy");
-  input.remove();
+  let copied = false;
+  try {
+    input.select();
+    copied = document.execCommand("copy");
+  } finally {
+    input.remove();
+  }
+  if (!copied) throw new Error("Browser copy command failed");
 }
 
 for (const button of document.querySelectorAll("[data-copy-email]")) {
@@ -41,6 +46,21 @@ for (const button of document.querySelectorAll("[data-copy-checklist]")) {
       if (status) status.textContent = "Checklist copied.";
     } catch {
       if (status) status.textContent = "Copy failed. Select the checklist above.";
+    }
+  });
+}
+
+for (const button of document.querySelectorAll("[data-copy-page-link]")) {
+  button.addEventListener("click", async () => {
+    const status = button.parentElement?.querySelector("[data-copy-page-status]");
+    const canonicalUrl = document.querySelector('link[rel="canonical"]')?.href;
+    const pageUrl = button.dataset.copyPageLink || canonicalUrl;
+    try {
+      if (!pageUrl) throw new Error("Canonical URL is unavailable");
+      await copyText(pageUrl);
+      if (status) status.textContent = "Link copied.";
+    } catch {
+      if (status) status.textContent = "Copy failed. Copy the URL from your browser.";
     }
   });
 }
