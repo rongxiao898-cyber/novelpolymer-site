@@ -3,8 +3,19 @@
 
   const measurementId = "G-CN9MWX6ST1";
   const storageKey = "tianze_analytics_consent_v1";
+  const campaignKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
   let analyticsLoaded = false;
   let banner;
+
+  function analyticsPageLocation() {
+    const current = new URL(window.location.href);
+    const clean = new URL(current.pathname, current.origin);
+    for (const key of campaignKeys) {
+      const value = current.searchParams.get(key)?.trim();
+      if (value && /^[a-zA-Z0-9._~+\-]{1,100}$/.test(value)) clean.searchParams.set(key, value);
+    }
+    return clean.toString();
+  }
 
   function readChoice() {
     try {
@@ -49,7 +60,7 @@
       anonymize_ip: true,
       allow_google_signals: false,
       ads_data_redaction: true,
-      page_location: `${location.origin}${location.pathname}`,
+      page_location: analyticsPageLocation(),
       page_title: document.title,
     });
     const script = document.createElement("script");
