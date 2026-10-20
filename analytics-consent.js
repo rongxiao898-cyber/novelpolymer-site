@@ -4,6 +4,7 @@
   const measurementId = "G-CN9MWX6ST1";
   const storageKey = "tianze_analytics_consent_v1";
   const campaignKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+  const campaignValuePattern = /^[a-zA-Z0-9._~+\- ]{1,100}$/;
   let analyticsLoaded = false;
   let banner;
 
@@ -12,7 +13,7 @@
     const clean = new URL(current.pathname, current.origin);
     for (const key of campaignKeys) {
       const value = current.searchParams.get(key)?.trim();
-      if (value && /^[a-zA-Z0-9._~+\-]{1,100}$/.test(value)) clean.searchParams.set(key, value);
+      if (value && campaignValuePattern.test(value)) clean.searchParams.set(key, value);
     }
     return clean.toString();
   }

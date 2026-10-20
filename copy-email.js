@@ -1,11 +1,12 @@
 const email = "mike@novelpolymer.cn";
 const campaignKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+const campaignValuePattern = /^[a-zA-Z0-9._~+\- ]{1,100}$/;
 
 function campaignReference() {
   const current = new URL(window.location.href);
   return campaignKeys.flatMap((key) => {
     const value = current.searchParams.get(key)?.trim();
-    if (!value || !/^[a-zA-Z0-9._~+\-]{1,100}$/.test(value)) return [];
+    if (!value || !campaignValuePattern.test(value)) return [];
     return [[key.replace("utm_", ""), value]];
   });
 }
